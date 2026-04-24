@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إتمام الشراء | PalStyle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ====== NAVBAR ====== -->
+  <nav class="navbar">
+    <div class="logo">Pal<span>Style</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">الرئيسية</a></li>
+      <li><a href="products.html">المنتجات</a></li>
+      <li><a href="about.html">من نحن</a></li>
+      <li><a href="contact.html">اتصل بنا</a></li>
+    </ul>
+  </nav>
+
+  <!-- ====== CHECKOUT ====== -->
+  <section class="section" style="padding-top: 5rem;">
+    <div class="checkout-card">
+      <h1>🛒 إتمام الشراء</h1>
+
+      <!-- Order Summary -->
+      <div class="order-summary">
+        <h3>ملخص الطلب</h3>
+        <div class="summary-item">
+          <span>كوفية فلسطينية أصلية × 1</span>
+          <span>$19.99</span>
+        </div>
+        <div class="summary-item">
+          <span>قلادة خريطة فلسطين × 1</span>
+          <span>$29.99</span>
+        </div>
+        <div class="summary-item" style="border-top: 2px solid #ddd; margin-top: 0.5rem; padding-top: 0.5rem;">
+          <span>الشحن</span>
+          <span style="color: var(--green); font-weight: bold;">مجاني 🎉</span>
+        </div>
+        <div class="summary-total">
+          <span>الإجمالي:</span>
+          <span>$49.98</span>
+        </div>
+      </div>
+
+      <!-- Shipping Form -->
+      <form action="mailto:info@palstyle.com" method="post" enctype="text/plain">
+        <h3 style="color: var(--green); margin-bottom: 1.5rem;">📋 معلومات الشحن</h3>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>الاسم الأول *</label>
+            <input type="text" name="firstName" placeholder="الاسم الأول" required>
+          </div>
+          <div class="form-group">
+            <label>الاسم الأخير *</label>
+            <input type="text" name="lastName" placeholder="الاسم الأخير" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>رقم الهاتف *</label>
+          <input type="tel" name="phone" placeholder="+970 59 XXX XXXX" required>
+        </div>
+
+        <div class="form-group">
+          <label>البريد الإلكتروني *</label>
+          <input type="email" name="email" placeholder="example@email.com" required>
+        </div>
+
+        <div class="form-group">
+          <label>الدولة *</label>
+          <select name="country" required>
+            <option value="">اختر الدولة</option>
+            <option>فلسطين</option>
+            <option>الأردن</option>
+            <option>الإمارات</option>
+            <option>السعودية</option>
+            <option>مصر</option>
+            <option>لبنان</option>
+            <option>الكويت</option>
+            <option>قطر</option>
+            <option>دولة أخرى</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>المدينة *</label>
+          <input type="text" name="city" placeholder="اسم المدينة" required>
+        </div>
+
+        <div class="form-group">
+          <label>العنوان بالتفصيل *</label>
+          <textarea name="address" rows="3" placeholder="الحي، الشارع، رقم المبنى..." required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label>ملاحظات إضافية</label>
+          <textarea name="notes" rows="2" placeholder="أي ملاحظات خاصة بالطلب..."></textarea>
+        </div>
+
+        <!-- Payment -->
+        <h3 style="color: var(--green); margin: 2rem 0 1rem;">💳 طريقة الدفع</h3>
+        <div class="payment-options">
+          <label class="payment-option">
+            <input type="radio" name="payment" value="cod" checked style="width: auto;">
+            <span style="margin-right: 0.5rem;">💵 الدفع عند الاستلام</span>
+          </label>
+          <label class="payment-option">
+            <input type="radio" name="payment" value="card" style="width: auto;">
+            <span style="margin-right: 0.5rem;">💳 بطاقة ائتمان</span>
+          </label>
+          <label class="payment-option">
+            <input type="radio" name="payment" value="paypal" style="width: auto;">
+            <span style="margin-right: 0.5rem;">🅿️ PayPal</span>
+          </label>
+        </div>
+
+        <button type="submit" class="btn" style="width: 100%; border: none; cursor: pointer; margin-top: 1.5rem;">
+          ✅ تأكيد الطلب
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">Pal<span>Style</span></div>
+        <p>متجر إلكتروني لبيع المنتجات الفلسطينية الأصيلة.</p>
+      </div>
+      <div class="footer-links">
+        <h4>روابط سريعة</h4>
+        <ul>
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="products.html">المنتجات</a></li>
+          <li><a href="about.html">من نحن</a></li>
+          <li><a href="contact.html">اتصل بنا</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>تواصل معنا</h4>
+        <ul>
+          <li>📞 +970 59 123 4567</li>
+          <li>✉️ info@palstyle.com</li>
+          <li>📍 فلسطين - رام الله</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 PalStyle. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

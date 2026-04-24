@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>اتصل بنا | PalStyle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ====== NAVBAR ====== -->
+  <nav class="navbar">
+    <div class="logo">Pal<span>Style</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">الرئيسية</a></li>
+      <li><a href="products.html">المنتجات</a></li>
+      <li><a href="about.html">من نحن</a></li>
+      <li><a href="contact.html">اتصل بنا</a></li>
+    </ul>
+  </nav>
+
+  <!-- ====== CONTACT HERO ====== -->
+  <section class="about-hero" style="padding: 7rem 5% 4rem;">
+    <h1>تواصل <span>معنا</span></h1>
+    <p>نحن هنا لمساعدتك. لا تتردد في التواصل معنا.</p>
+  </section>
+
+  <!-- ====== CONTACT CARDS ====== -->
+  <section class="section">
+    <h2 class="section-title">معلومات <span>التواصل</span></h2>
+    <div class="contact-grid">
+
+      <!-- Phone -->
+      <div class="contact-card">
+        <div class="contact-icon">📞</div>
+        <h3>اتصل بنا</h3>
+        <p>
+          رقم الهاتف:<br>
+          <a href="tel:+970591234567">+970 59 123 4567</a><br><br>
+          واتساب:<br>
+          <a href="https://wa.me/970591234567">+970 59 123 4567</a>
+        </p>
+      </div>
+
+      <!-- Email -->
+      <div class="contact-card">
+        <div class="contact-icon">✉️</div>
+        <h3>راسلنا</h3>
+        <p>
+          البريد الإلكتروني:<br>
+          <a href="mailto:info@palstyle.com">info@palstyle.com</a><br><br>
+          الدعم الفني:<br>
+          <a href="mailto:support@palstyle.com">support@palstyle.com</a>
+        </p>
+      </div>
+
+      <!-- Address -->
+      <div class="contact-card">
+        <div class="contact-icon">📍</div>
+        <h3>زورنا</h3>
+        <p>
+          <strong>فلسطين - رام الله</strong><br>
+          شارع القدس، مبنى التجارة<br>
+          الطابق الثالث، مكتب 305
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ====== CONTACT FORM ====== -->
+  <section class="section" style="background: var(--gray);">
+    <h2 class="section-title">أرسل <span>رسالة</span></h2>
+    <p style="text-align: center; color: #666; margin-bottom: 2rem;">املأ النموذج أدناه وسنرد عليك في أقرب وقت</p>
+
+    <div class="form-card">
+      <form action="mailto:info@palstyle.com" method="post" enctype="text/plain">
+        <div class="form-row">
+          <div class="form-group">
+            <label>الاسم الكامل *</label>
+            <input type="text" name="name" placeholder="أدخل اسمك" required>
+          </div>
+          <div class="form-group">
+            <label>رقم الهاتف</label>
+            <input type="tel" name="phone" placeholder="+970 59 XXX XXXX">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>البريد الإلكتروني *</label>
+          <input type="email" name="email" placeholder="example@email.com" required>
+        </div>
+
+        <div class="form-group">
+          <label>الموضوع</label>
+          <select name="subject">
+            <option>استفسار عام</option>
+            <option>طلب خاص</option>
+            <option>شكوى</option>
+            <option>اقتراح</option>
+            <option>تعاون تجاري</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>الرسالة *</label>
+          <textarea name="message" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn" style="width: 100%; border: none; cursor: pointer;">
+          📨 إرسال الرسالة
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ====== WORKING HOURS ====== -->
+  <section class="section">
+    <h2 class="section-title">ساعات <span>العمل</span></h2>
+    <div style="max-width: 500px; margin: 0 auto; background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 3px 15px rgba(0,0,0,0.05);">
+      <table style="width: 100%; text-align: right;">
+        <tr style="border-bottom: 1px solid #eee;">
+          <td style="padding: 0.8rem; font-weight: bold; color: var(--green);">السبت - الخميس</td>
+          <td style="padding: 0.8rem;">9:00 صباحاً - 6:00 مساءً</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #eee;">
+          <td style="padding: 0.8rem; font-weight: bold; color: var(--green);">الجمعة</td>
+          <td style="padding: 0.8rem;">مغلق</td>
+        </tr>
+        <tr>
+          <td style="padding: 0.8rem; font-weight: bold; color: var(--green);">الدعم عبر الواتساب</td>
+          <td style="padding: 0.8rem;">24/7</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">Pal<span>Style</span></div>
+        <p>متجر إلكتروني لبيع المنتجات الفلسطينية الأصيلة.</p>
+      </div>
+      <div class="footer-links">
+        <h4>روابط سريعة</h4>
+        <ul>
+          <li><a href="index.html">الرئيسية</a></li>
+          <li><a href="products.html">المنتجات</a></li>
+          <li><a href="about.html">من نحن</a></li>
+          <li><a href="contact.html">اتصل بنا</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>تواصل معنا</h4>
+        <ul>
+          <li>📞 +970 59 123 4567</li>
+          <li>✉️ info@palstyle.com</li>
+          <li>📍 فلسطين - رام الله</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 PalStyle. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
